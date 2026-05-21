@@ -3,172 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard V3 - 影视创作工作台</title>
+    <title>AI 影视自媒体解说驾驶舱</title>
     <style>
-        :root {
-            --bg-color: #0a0a0c;
-            --card-bg: rgba(255, 255, 255, 0.04);
-            --accent-blue: #00d2ff;
-            --text-main: #ffffff;
-            --text-dim: rgba(255, 255, 255, 0.5);
-            --border-style: 1px solid rgba(255, 255, 255, 0.08);
-            --radius: 14px;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "SF Pro", sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            padding: 30px;
-            display: flex; justify-content: center;
-        }
-
-        .main-container { width: 100%; max-width: 1400px; display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
-
-        /* --- 分类过滤器 --- */
-        .filter-bar {
-            margin-bottom: 20px;
-            display: flex; gap: 10px;
-            flex-wrap: wrap;
-        }
-        .filter-btn {
-            background: var(--card-bg);
-            border: var(--border-style);
-            color: var(--text-dim);
-            padding: 6px 15px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 13px;
-            transition: 0.3s;
-        }
-        .filter-btn.active { background: var(--accent-blue); color: #000; font-weight: 600; }
-
-        /* --- 电影行列表 --- */
-        .movie-list { display: flex; flex-direction: column; gap: 12px; }
-
-        .movie-row {
-            display: grid;
-            grid-template-columns: 40px 70px 1fr auto; /* 勾选 | 海报 | 信息 | 评分 */
-            align-items: center;
-            background: var(--card-bg);
-            padding: 12px 20px;
-            border-radius: var(--radius);
-            border: var(--border-style);
-            transition: 0.3s;
-        }
-        .movie-row:hover { border-color: var(--accent-blue); background: rgba(255,255,255,0.07); }
-
-        /* 海报 */
-        .poster-thumb {
-            width: 50px; height: 75px;
-            background-color: #1a1a1a;
-            border-radius: 6px;
-            object-fit: cover;
-            border: 1px solid rgba(255,255,255,0.1);
-        }
-
-        /* 勾选框 */
-        .check-box {
-            width: 20px; height: 20px;
-            border: 2px solid var(--text-dim);
-            border-radius: 4px;
-            cursor: pointer;
-            display: flex; align-items: center; justify-content: center;
-        }
-        .check-box.active { background: var(--accent-blue); border-color: var(--accent-blue); }
-        .check-box.active::after { content: '✓'; color: #000; font-size: 14px; font-weight: bold; }
-
-        /* 标签 */
-        .tag-group { display: flex; gap: 6px; margin-top: 5px; }
-        .type-tag {
-            font-size: 10px;
-            padding: 2px 6px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 4px;
-            color: var(--text-dim);
-        }
-
-        /* AI 总结区 (点击行展开) */
-        .ai-summary {
-            grid-column: 1 / 5;
-            margin-top: 10px;
-            padding: 15px;
-            background: rgba(0, 210, 255, 0.05);
-            border-radius: 10px;
-            font-size: 13px;
-            line-height: 1.6;
-            border-left: 3px solid var(--accent-blue);
-            display: none; /* 默认隐藏 */
-        }
-        .movie-row.open .ai-summary { display: block; }
-
-        .link-group { margin-top: 10px; display: flex; gap: 15px; }
-        .link-group a { color: var(--accent-blue); text-decoration: none; font-size: 12px; font-weight: 600; }
-        .link-group a:hover { text-decoration: underline; }
-
-        /* 评分样式保持 V2 */
-        .ratings-group { display: flex; gap: 15px; text-align: center; }
-        .r-item { width: 50px; }
-        .r-val { font-size: 15px; font-weight: 700; display: block; }
-        .r-label { font-size: 9px; color: var(--text-dim); }
-
+        :root { --bg: #0b0d19; --card: #16192b; --text: #f3f4f6; --accent: #5865f2; }
+        body { background: var(--bg); color: var(--text); font-family: -apple-system, sans-serif; padding: 20px; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .filter-btn { background: var(--card); border: 1px solid #2d314d; color: var(--text); padding: 8px 16px; border-radius: 20px; cursor: pointer; margin-right: 10px; }
+        .filter-btn.active { background: var(--accent); }
+        .movie-table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
+        .movie-row { border-bottom: 1px solid #2d314d; cursor: pointer; transition: 0.2s; }
+        .movie-row:hover { background: #1f233d; }
+        td { padding: 15px; vertical-align: middle; }
+        .poster { width: 50px; height: 75px; border-radius: 6px; object-fit: cover; background: #2d314d; }
+        .detail-panel { display: none; background: #121526; padding: 20px; border-bottom: 1px solid #2d314d; }
+        .badge { background: #ff9f43; color: #000; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-weight: bold; }
     </style>
 </head>
 <body>
 
-<div class="main-container">
-    <main>
-        <h2 style="margin-bottom: 20px;">影视创作中心 V3</h2>
-        
-        <!-- 分类过滤 -->
-        <div class="filter-bar">
-            <button class="filter-btn active">全部</button>
-            <button class="filter-btn">剧情</button>
-            <button class="filter-btn">犯罪</button>
-            <button class="filter-btn">科幻</button>
-            <button class="filter-btn">动画</button>
+    <div class="header">
+        <h2>🎬 我的影视自媒体灵感舱</h2>
+        <div>
+            <button class="filter-btn active" onclick="filterGenre('全部')">全部</button>
+            <button class="filter-btn" onclick="filterGenre('剧情')">剧情</button>
         </div>
+    </div>
 
-        <div class="movie-list">
-            <!-- 电影行示例 -->
-            <div class="movie-row" onclick="this.classList.toggle('open')">
-                <div class="check-box" onclick="event.stopPropagation(); this.classList.toggle('active')"></div>
-                <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg" class="poster-thumb">
-                <div style="padding-left: 15px;">
-                    <div style="font-weight: 600;">肖申克的救赎</div>
-                    <div class="tag-group">
-                        <span class="type-tag">剧情</span>
-                        <span class="type-tag">犯罪</span>
-                    </div>
-                </div>
-                <div class="ratings-group">
-                    <div class="r-item"><span class="r-val" style="color:#00B51D">9.7</span><span class="r-label">豆瓣</span></div>
-                    <div class="r-item"><span class="r-val" style="color:#F5C518">9.3</span><span class="r-label">IMDb</span></div>
-                </div>
+    <table class="movie-table">
+        <tbody id="movie-list">
+            </tbody>
+    </table>
 
-                <!-- AI 总结与链接 -->
-                <div class="ai-summary">
-                    <strong>🤖 AI 创作灵感：</strong>
-                    这是一部极具“长尾流量”的作品。建议 Reaction 重点放在“体制化”这一主题的共鸣上。IMDb 与豆瓣评分高度一致，说明其艺术价值跨越文化。
-                    <div class="link-group">
-                        <a href="https://movie.douban.com/subject/1292052/" target="_blank">豆瓣详情 ↗</a>
-                        <a href="https://www.imdb.com/title/tt0111161/" target="_blank">IMDb ↗</a>
-                        <a href="https://www.rottentomatoes.com/m/shawshank_redemption" target="_blank">烂番茄 ↗</a>
-                    </div>
-                </div>
-            </div>
-            <!-- 更多行可以此类推 -->
-        </div>
-    </main>
+    <script>
+        let allMovies = [];
 
-    <aside>
-        <!-- 侧边栏保持原来的倒计时和数据追踪 -->
-        <div style="background: var(--card-bg); padding: 20px; border-radius: var(--radius); border: var(--border-style);">
-            <h4 style="color: var(--text-dim); font-size: 12px; margin-bottom: 10px;">工作流说明</h4>
-            <p style="font-size: 13px; color: var(--text-dim);">1. 点击电影行可展开 AI 总结。<br>2. 勾选框用于标记今日选题。<br>3. 顶部可根据内容分类快速筛选。</p>
-        </div>
-    </aside>
-</div>
+        // 核心逻辑：从同目录下的 data.json 读取最新数据
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                allMovies = await response.json();
+                renderMovies(allMovies);
+            } catch (e) {
+                document.getElementById('movie-list').innerHTML = `<tr><td style="color:red">数据加载失败，请确保自动化脚本已成功运行并生成 data.json</td></tr>`;
+            }
+        }
 
+        function renderMovies(movies) {
+            const list = document.getElementById('movie-list');
+            list.innerHTML = '';
+            
+            movies.forEach((movie, index) => {
+                const isChecked = localStorage.getItem(`check-${movie.title}`) === 'true' ? 'checked' : '';
+                
+                // 每一行的表格 HTML
+                list.innerHTML += `
+                    <tr class="movie-row" onclick="toggleDetail(${index})">
+                        <td width="50"><input type="checkbox" ${isChecked} onclick="event.stopPropagation(); saveCheck('${movie.title}', this)"></td>
+                        <td width="60"><img class="poster" src="${movie.poster || ''}" alt="海报"></td>
+                        <td>
+                            <strong style="font-size:16px;">${movie.title}</strong>
+                            <div style="margin-top:5px;"><span class="badge">TMDB: ${movie.rating_tmdb || '暂无'}</span></div>
+                        </td>
+                        <td align="right" style="color:#a0aec0;">点击展开 AI 选题建议 ▽</td>
+                    </tr>
+                    <tr id="detail-${index}" class="detail-panel">
+                        <td colspan="4">
+                            <div style="border-left: 3px solid var(--accent); padding-left: 15px;">
+                                <h4 style="margin: 0 0 10px 0; color: #5865f2;">💡 Gemini AI 独家解说思路：</h4>
+                                <p style="line-height: 1.6; color: #cbd5e1; margin: 0;">${movie.ai_insight || 'AI 正在全力憋稿中...'}</p>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            });
+        }
+
+        function toggleDetail(index) {
+            const panel = document.getElementById(`detail-${index}`);
+            panel.style.display = panel.style.display === 'table-row' ? 'none' : 'table-row';
+        }
+
+        function saveCheck(title, box) {
+            localStorage.setItem(`check-${title}`, box.checked);
+        }
+
+        function filterGenre(genre) {
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            if (genre === '全部') {
+                renderMovies(allMovies);
+            } else {
+                const filtered = allMovies.filter(m => m.genres && m.genres.includes(genre));
+                renderMovies(filtered);
+            }
+        }
+
+        // 页面打开时立刻执行加载
+        loadData();
+    </script>
 </body>
 </html>
