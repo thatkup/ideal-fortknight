@@ -1,1 +1,32 @@
-{}
+[
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/Aqo8yM5S5ZEdlcyeBBxj7s0vkTf.jpg",
+        "rating_tmdb": 8.72,
+        "genres": [
+            "剧情"
+        ],
+        "id": 278,
+        "title": "肖申克的救赎",
+        "ai_insight": "AI 建议：本片适合做'人性反转'专题，建议对比国内外同类题材。"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/vOEkLofQ8N1OdbGs5L87m7Plpw2.jpg",
+        "rating_tmdb": 7.896,
+        "genres": [
+            "剧情"
+        ],
+        "id": 10997,
+        "title": "霸王别姬",
+        "ai_insight": "AI 建议：本片适合做'人性反转'专题，建议对比国内外同类题材。"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/pplybKImR7LKzSVzRylK6Cl4dzm.jpg",
+        "rating_tmdb": 8.465,
+        "genres": [
+            "剧情"
+        ],
+        "id": 13,
+        "title": "阿甘正传",
+        "ai_insight": "AI 建议：本片适合做'人性反转'专题，建议对比国内外同类题材。"
+    }
+]
