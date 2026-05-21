@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard V3 - 影视创作工作台</title>
+    <style>
+        :root {
+            --bg-color: #0a0a0c;
+            --card-bg: rgba(255, 255, 255, 0.04);
+            --accent-blue: #00d2ff;
+            --text-main: #ffffff;
+            --text-dim: rgba(255, 255, 255, 0.5);
+            --border-style: 1px solid rgba(255, 255, 255, 0.08);
+            --radius: 14px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            padding: 30px;
+            display: flex; justify-content: center;
+        }
+
+        .main-container { width: 100%; max-width: 1400px; display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+
+        /* --- 分类过滤器 --- */
+        .filter-bar {
+            margin-bottom: 20px;
+            display: flex; gap: 10px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            background: var(--card-bg);
+            border: var(--border-style);
+            color: var(--text-dim);
+            padding: 6px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: 0.3s;
+        }
+        .filter-btn.active { background: var(--accent-blue); color: #000; font-weight: 600; }
+
+        /* --- 电影行列表 --- */
+        .movie-list { display: flex; flex-direction: column; gap: 12px; }
+
+        .movie-row {
+            display: grid;
+            grid-template-columns: 40px 70px 1fr auto; /* 勾选 | 海报 | 信息 | 评分 */
+            align-items: center;
+            background: var(--card-bg);
+            padding: 12px 20px;
+            border-radius: var(--radius);
+            border: var(--border-style);
+            transition: 0.3s;
+        }
+        .movie-row:hover { border-color: var(--accent-blue); background: rgba(255,255,255,0.07); }
+
+        /* 海报 */
+        .poster-thumb {
+            width: 50px; height: 75px;
+            background-color: #1a1a1a;
+            border-radius: 6px;
+            object-fit: cover;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* 勾选框 */
+        .check-box {
+            width: 20px; height: 20px;
+            border: 2px solid var(--text-dim);
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .check-box.active { background: var(--accent-blue); border-color: var(--accent-blue); }
+        .check-box.active::after { content: '✓'; color: #000; font-size: 14px; font-weight: bold; }
+
+        /* 标签 */
+        .tag-group { display: flex; gap: 6px; margin-top: 5px; }
+        .type-tag {
+            font-size: 10px;
+            padding: 2px 6px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            color: var(--text-dim);
+        }
+
+        /* AI 总结区 (点击行展开) */
+        .ai-summary {
+            grid-column: 1 / 5;
+            margin-top: 10px;
+            padding: 15px;
+            background: rgba(0, 210, 255, 0.05);
+            border-radius: 10px;
+            font-size: 13px;
+            line-height: 1.6;
+            border-left: 3px solid var(--accent-blue);
+            display: none; /* 默认隐藏 */
+        }
+        .movie-row.open .ai-summary { display: block; }
+
+        .link-group { margin-top: 10px; display: flex; gap: 15px; }
+        .link-group a { color: var(--accent-blue); text-decoration: none; font-size: 12px; font-weight: 600; }
+        .link-group a:hover { text-decoration: underline; }
+
+        /* 评分样式保持 V2 */
+        .ratings-group { display: flex; gap: 15px; text-align: center; }
+        .r-item { width: 50px; }
+        .r-val { font-size: 15px; font-weight: 700; display: block; }
+        .r-label { font-size: 9px; color: var(--text-dim); }
+
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+    <main>
+        <h2 style="margin-bottom: 20px;">影视创作中心 V3</h2>
+        
+        <!-- 分类过滤 -->
+        <div class="filter-bar">
+            <button class="filter-btn active">全部</button>
+            <button class="filter-btn">剧情</button>
+            <button class="filter-btn">犯罪</button>
+            <button class="filter-btn">科幻</button>
+            <button class="filter-btn">动画</button>
+        </div>
+
+        <div class="movie-list">
+            <!-- 电影行示例 -->
+            <div class="movie-row" onclick="this.classList.toggle('open')">
+                <div class="check-box" onclick="event.stopPropagation(); this.classList.toggle('active')"></div>
+                <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg" class="poster-thumb">
+                <div style="padding-left: 15px;">
+                    <div style="font-weight: 600;">肖申克的救赎</div>
+                    <div class="tag-group">
+                        <span class="type-tag">剧情</span>
+                        <span class="type-tag">犯罪</span>
+                    </div>
+                </div>
+                <div class="ratings-group">
+                    <div class="r-item"><span class="r-val" style="color:#00B51D">9.7</span><span class="r-label">豆瓣</span></div>
+                    <div class="r-item"><span class="r-val" style="color:#F5C518">9.3</span><span class="r-label">IMDb</span></div>
+                </div>
+
+                <!-- AI 总结与链接 -->
+                <div class="ai-summary">
+                    <strong>🤖 AI 创作灵感：</strong>
+                    这是一部极具“长尾流量”的作品。建议 Reaction 重点放在“体制化”这一主题的共鸣上。IMDb 与豆瓣评分高度一致，说明其艺术价值跨越文化。
+                    <div class="link-group">
+                        <a href="https://movie.douban.com/subject/1292052/" target="_blank">豆瓣详情 ↗</a>
+                        <a href="https://www.imdb.com/title/tt0111161/" target="_blank">IMDb ↗</a>
+                        <a href="https://www.rottentomatoes.com/m/shawshank_redemption" target="_blank">烂番茄 ↗</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 更多行可以此类推 -->
+        </div>
+    </main>
+
+    <aside>
+        <!-- 侧边栏保持原来的倒计时和数据追踪 -->
+        <div style="background: var(--card-bg); padding: 20px; border-radius: var(--radius); border: var(--border-style);">
+            <h4 style="color: var(--text-dim); font-size: 12px; margin-bottom: 10px;">工作流说明</h4>
+            <p style="font-size: 13px; color: var(--text-dim);">1. 点击电影行可展开 AI 总结。<br>2. 勾选框用于标记今日选题。<br>3. 顶部可根据内容分类快速筛选。</p>
+        </div>
+    </aside>
+</div>
+
+</body>
+</html>
