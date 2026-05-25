@@ -50,7 +50,7 @@
     {
         "title": "千与千寻",
         "poster": "https://image.tmdb.org/t/p/w500/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
-        "rating_tmdb": 8.5,
+        "rating_tmdb": 8.534,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -194,7 +194,7 @@
     {
         "title": "放牛班的春天",
         "poster": "https://image.tmdb.org/t/p/w500/d623rdQLxw7QhdP7ECsz1UkJrHl.jpg",
-        "rating_tmdb": 7.74,
+        "rating_tmdb": 7.741,
         "rating_douban": 8.0,
         "rating_imdb": 7.7,
         "rating_tomato": "85%",
@@ -277,8 +277,8 @@
     },
     {
         "title": "教父",
-        "poster": "https://image.tmdb.org/t/p/w500/y03tzUKvkRCYwJ5NWys4W4bnS9m.jpg",
-        "rating_tmdb": 8.7,
+        "poster": "https://image.tmdb.org/t/p/w500/jO8bXOYNPW0J5QFwh8t3kD9oFaP.jpg",
+        "rating_tmdb": 8.686,
         "rating_douban": 9.0,
         "rating_imdb": 8.7,
         "rating_tomato": "95%",
@@ -314,7 +314,7 @@
     {
         "title": "当幸福来敲门",
         "poster": "https://image.tmdb.org/t/p/w500/vxj2k0168d7K3pih7Aw6kqvvLcN.jpg",
-        "rating_tmdb": 7.886,
+        "rating_tmdb": 7.9,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
         "rating_tomato": "86%",
@@ -362,7 +362,7 @@
     {
         "title": "蝙蝠侠：黑暗骑士",
         "poster": "https://image.tmdb.org/t/p/w500/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-        "rating_tmdb": 8.5,
+        "rating_tmdb": 8.531,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -398,10 +398,10 @@
     {
         "title": "乱世佳人",
         "poster": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
-        "rating_tmdb": 7.915,
+        "rating_tmdb": 7.9,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
-        "rating_tomato": "87%",
+        "rating_tomato": "86%",
         "genres": [
             "剧情"
         ],
@@ -494,10 +494,10 @@
     {
         "title": "天空之城",
         "poster": "https://image.tmdb.org/t/p/w500/nCpXBPravHiEzjv6cCGp2lt2E28.jpg",
-        "rating_tmdb": 7.969,
+        "rating_tmdb": 8.0,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
-        "rating_tomato": "87%",
+        "rating_tomato": "88%",
         "genres": [
             "剧情"
         ],
@@ -542,7 +542,7 @@
     {
         "title": "钢琴家",
         "poster": "https://image.tmdb.org/t/p/w500/4KRvUM24smLLZYUOJ7QQmBN1FXY.jpg",
-        "rating_tmdb": 8.375,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -550,18 +550,6 @@
             "剧情"
         ],
         "ai_insight": "🔥 选题灵感：建议从《钢琴家》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
-        "title": "指环王2：双塔奇兵",
-        "poster": "https://image.tmdb.org/t/p/w500/ychqojA94mwdskXIIVmDyrfxwXl.jpg",
-        "rating_tmdb": 8.418,
-        "rating_douban": 8.7,
-        "rating_imdb": 8.4,
-        "rating_tomato": "92%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《指环王2：双塔奇兵》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
         "title": "死亡诗社",
@@ -574,6 +562,18 @@
             "剧情"
         ],
         "ai_insight": "🔥 选题灵感：建议从《死亡诗社》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
+        "title": "指环王2：双塔奇兵",
+        "poster": "https://image.tmdb.org/t/p/w500/ychqojA94mwdskXIIVmDyrfxwXl.jpg",
+        "rating_tmdb": 8.4,
+        "rating_douban": 8.7,
+        "rating_imdb": 8.4,
+        "rating_tomato": "92%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《指环王2：双塔奇兵》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
         "title": "大话西游之月光宝盒",
@@ -614,7 +614,7 @@
     {
         "title": "闻香识女人",
         "poster": "https://image.tmdb.org/t/p/w500/wslKTtycuNZt66we6quBK2pFbUi.jpg",
-        "rating_tmdb": 7.788,
+        "rating_tmdb": 7.8,
         "rating_douban": 8.1,
         "rating_imdb": 7.8,
         "rating_tomato": "85%",
@@ -674,7 +674,7 @@
     {
         "title": "教父2",
         "poster": "https://image.tmdb.org/t/p/w500/4J8jUmjgKPggRPJqqdkjWCj2k0D.jpg",
-        "rating_tmdb": 8.571,
+        "rating_tmdb": 8.6,
         "rating_douban": 8.9,
         "rating_imdb": 8.6,
         "rating_tomato": "94%",
@@ -746,7 +746,7 @@
     {
         "title": "搏击俱乐部",
         "poster": "https://image.tmdb.org/t/p/w500/qkrH7rjYKU4KOwwIl6wF6H3ISvm.jpg",
-        "rating_tmdb": 8.4,
+        "rating_tmdb": 8.438,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -866,7 +866,7 @@
     {
         "title": "阿凡达",
         "poster": "https://image.tmdb.org/t/p/w500/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
-        "rating_tmdb": 7.5,
+        "rating_tmdb": 7.496,
         "rating_douban": 7.8,
         "rating_imdb": 7.5,
         "rating_tomato": "82%",
@@ -878,7 +878,7 @@
     {
         "title": "西西里的美丽传说",
         "poster": "https://image.tmdb.org/t/p/w500/dzDomGKtXBSpsXbwfI5Ujn2rQvm.jpg",
-        "rating_tmdb": 7.469,
+        "rating_tmdb": 7.471,
         "rating_douban": 7.8,
         "rating_imdb": 7.5,
         "rating_tomato": "82%",
@@ -914,7 +914,7 @@
     {
         "title": "沉默的羔羊",
         "poster": "https://image.tmdb.org/t/p/w500/guKREBLV4nSzT52rKAjHFjSjhsL.jpg",
-        "rating_tmdb": 8.3,
+        "rating_tmdb": 8.345,
         "rating_douban": 8.6,
         "rating_imdb": 8.3,
         "rating_tomato": "91%",
@@ -936,6 +936,18 @@
         "ai_insight": "🔥 选题灵感：建议从《小鞋子》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
+        "title": "蝴蝶效应",
+        "poster": "https://image.tmdb.org/t/p/w500/ubI1LllWsA92f4M9GKX2wUlzkPR.jpg",
+        "rating_tmdb": 7.578,
+        "rating_douban": 7.9,
+        "rating_imdb": 7.6,
+        "rating_tomato": "83%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《蝴蝶效应》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
         "title": "布达佩斯大饭店",
         "poster": "https://image.tmdb.org/t/p/w500/be8eTb9JeEjIDzJorbxLuuHDCCq.jpg",
         "rating_tmdb": 8.028,
@@ -948,30 +960,6 @@
         "ai_insight": "🔥 选题灵感：建议从《布达佩斯大饭店》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
-        "title": "蝴蝶效应",
-        "poster": "https://image.tmdb.org/t/p/w500/ubI1LllWsA92f4M9GKX2wUlzkPR.jpg",
-        "rating_tmdb": 7.577,
-        "rating_douban": 7.9,
-        "rating_imdb": 7.6,
-        "rating_tomato": "83%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《蝴蝶效应》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
-        "title": "飞越疯人院",
-        "poster": "https://image.tmdb.org/t/p/w500/cTlE3BxHbJL05UrisIUkS9usdOW.jpg",
-        "rating_tmdb": 8.4,
-        "rating_douban": 8.7,
-        "rating_imdb": 8.4,
-        "rating_tomato": "92%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《飞越疯人院》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
         "title": "还有明天",
         "poster": "https://image.tmdb.org/t/p/w500/x8JiIrpQlUiqnTZLHkKfm45pXPU.jpg",
         "rating_tmdb": 8.078,
@@ -982,6 +970,18 @@
             "剧情"
         ],
         "ai_insight": "🔥 选题灵感：建议从《还有明天》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
+        "title": "飞越疯人院",
+        "poster": "https://image.tmdb.org/t/p/w500/cTlE3BxHbJL05UrisIUkS9usdOW.jpg",
+        "rating_tmdb": 8.412,
+        "rating_douban": 8.7,
+        "rating_imdb": 8.4,
+        "rating_tomato": "92%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《飞越疯人院》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
         "title": "禁闭岛",
@@ -1034,7 +1034,7 @@
     {
         "title": "哈利·波特与密室",
         "poster": "https://image.tmdb.org/t/p/w500/p6e7HSfWcrPCerEF23lin8bKuQ0.jpg",
-        "rating_tmdb": 7.7,
+        "rating_tmdb": 7.703,
         "rating_douban": 8.0,
         "rating_imdb": 7.7,
         "rating_tomato": "84%",
@@ -1046,7 +1046,7 @@
     {
         "title": "超脱",
         "poster": "https://image.tmdb.org/t/p/w500/111jlbz8CyqADlHZTPg9giZl02I.jpg",
-        "rating_tmdb": 7.625,
+        "rating_tmdb": 7.626,
         "rating_douban": 7.9,
         "rating_imdb": 7.6,
         "rating_tomato": "83%",
@@ -1058,7 +1058,7 @@
     {
         "title": "一一",
         "poster": "https://image.tmdb.org/t/p/w500/sjlVRbsB33Mzt26vKRxoGPV0YZC.jpg",
-        "rating_tmdb": 8.44,
+        "rating_tmdb": 8.437,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -1080,6 +1080,18 @@
         "ai_insight": "🔥 选题灵感：建议从《喜剧之王》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
+        "title": "杀人回忆",
+        "poster": "https://image.tmdb.org/t/p/w500/fOtl0hH2g3wJ5Hf4saKMzhpOf7h.jpg",
+        "rating_tmdb": 8.058,
+        "rating_douban": 8.4,
+        "rating_imdb": 8.1,
+        "rating_tomato": "88%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《杀人回忆》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
         "title": "致命ID",
         "poster": "https://image.tmdb.org/t/p/w500/p59g3NUxuOK4ghPqblA5e3k26sv.jpg",
         "rating_tmdb": 7.184,
@@ -1090,18 +1102,6 @@
             "剧情"
         ],
         "ai_insight": "🔥 选题灵感：建议从《致命ID》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
-        "title": "杀人回忆",
-        "poster": "https://image.tmdb.org/t/p/w500/hJMdZcNqm4l7Rv72Ak12QytdGi9.jpg",
-        "rating_tmdb": 8.1,
-        "rating_douban": 8.4,
-        "rating_imdb": 8.1,
-        "rating_tomato": "89%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《杀人回忆》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
         "title": "摩登时代",
@@ -1130,7 +1130,7 @@
     {
         "title": "加勒比海盗",
         "poster": "https://image.tmdb.org/t/p/w500/72vRdR3iT2vv1ZpYmveOvnFJgJk.jpg",
-        "rating_tmdb": 7.377,
+        "rating_tmdb": 7.378,
         "rating_douban": 7.7,
         "rating_imdb": 7.4,
         "rating_tomato": "81%",
@@ -1178,7 +1178,7 @@
     {
         "title": "七宗罪",
         "poster": "https://image.tmdb.org/t/p/w500/e7J95YHcmLtyUtB1yojY76xQO90.jpg",
-        "rating_tmdb": 8.381,
+        "rating_tmdb": 8.382,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
