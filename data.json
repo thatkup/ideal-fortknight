@@ -38,7 +38,7 @@
     {
         "title": "阿甘正传",
         "poster": "https://image.tmdb.org/t/p/w500/pplybKImR7LKzSVzRylK6Cl4dzm.jpg",
-        "rating_tmdb": 8.5,
+        "rating_tmdb": 8.465,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -122,7 +122,7 @@
     {
         "title": "辛德勒的名单",
         "poster": "https://image.tmdb.org/t/p/w500/7cDI6MrIi12uQxfipiNIeJPYljy.jpg",
-        "rating_tmdb": 8.568,
+        "rating_tmdb": 8.569,
         "rating_douban": 8.9,
         "rating_imdb": 8.6,
         "rating_tomato": "94%",
@@ -158,7 +158,7 @@
     {
         "title": "疯狂动物城",
         "poster": "https://image.tmdb.org/t/p/w500/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
-        "rating_tmdb": 7.643,
+        "rating_tmdb": 7.648,
         "rating_douban": 7.9,
         "rating_imdb": 7.6,
         "rating_tomato": "84%",
@@ -170,10 +170,10 @@
     {
         "title": "三傻大闹宝莱坞",
         "poster": "https://image.tmdb.org/t/p/w500/3Kdkci7FE36fWcsuoeGFYApBBE1.jpg",
-        "rating_tmdb": 7.999,
+        "rating_tmdb": 8.0,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
-        "rating_tomato": "87%",
+        "rating_tomato": "88%",
         "genres": [
             "剧情"
         ],
@@ -218,7 +218,7 @@
     {
         "title": "控方证人",
         "poster": "https://image.tmdb.org/t/p/w500/eKAZqdT78RIiTPlWDc53jQEPU3v.jpg",
-        "rating_tmdb": 8.2,
+        "rating_tmdb": 8.204,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -230,7 +230,7 @@
     {
         "title": "寻梦环游记",
         "poster": "https://image.tmdb.org/t/p/w500/zrhUypo2z3aRX9htuzGpoVWE4jo.jpg",
-        "rating_tmdb": 8.2,
+        "rating_tmdb": 8.198,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -326,7 +326,7 @@
     {
         "title": "龙猫",
         "poster": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
-        "rating_tmdb": 8.061,
+        "rating_tmdb": 8.062,
         "rating_douban": 8.4,
         "rating_imdb": 8.1,
         "rating_tomato": "88%",
@@ -362,7 +362,7 @@
     {
         "title": "蝙蝠侠：黑暗骑士",
         "poster": "https://image.tmdb.org/t/p/w500/xUX0sVHmukGTYLTyqmSF5hpktOU.jpg",
-        "rating_tmdb": 8.531,
+        "rating_tmdb": 8.5,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -422,7 +422,7 @@
     {
         "title": "飞屋环游记",
         "poster": "https://image.tmdb.org/t/p/w500/79R2HaSUTYBmxIrjDNouEtxjMQc.jpg",
-        "rating_tmdb": 7.96,
+        "rating_tmdb": 7.961,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "87%",
@@ -446,7 +446,7 @@
     {
         "title": "十二怒汉",
         "poster": "https://image.tmdb.org/t/p/w500/ztYF7nf1SBJYMWPMzjWv52U6T41.jpg",
-        "rating_tmdb": 8.561,
+        "rating_tmdb": 8.562,
         "rating_douban": 8.9,
         "rating_imdb": 8.6,
         "rating_tomato": "94%",
@@ -482,10 +482,10 @@
     {
         "title": "猫鼠游戏",
         "poster": "https://image.tmdb.org/t/p/w500/8gVelCmO4TifM6rcBfTTOYyspak.jpg",
-        "rating_tmdb": 7.979,
+        "rating_tmdb": 8.0,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
-        "rating_tomato": "87%",
+        "rating_tomato": "88%",
         "genres": [
             "剧情"
         ],
@@ -530,7 +530,7 @@
     {
         "title": "少年派的奇幻漂流",
         "poster": "https://image.tmdb.org/t/p/w500/eDUzhpGbIjIcdzsstlbEksn1n7A.jpg",
-        "rating_tmdb": 7.409,
+        "rating_tmdb": 7.41,
         "rating_douban": 7.7,
         "rating_imdb": 7.4,
         "rating_tomato": "81%",
@@ -638,7 +638,7 @@
     {
         "title": "黑客帝国",
         "poster": "https://image.tmdb.org/t/p/w500/vsTC6jddyfy25GirpCVtZ7GOB7A.jpg",
-        "rating_tmdb": 8.246,
+        "rating_tmdb": 8.2,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -698,7 +698,7 @@
     {
         "title": "天堂电影院",
         "poster": "https://image.tmdb.org/t/p/w500/myeMOuOLu9Z7MwRF9HU7p5L4cYB.jpg",
-        "rating_tmdb": 8.426,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -758,7 +758,7 @@
     {
         "title": "美丽心灵",
         "poster": "https://image.tmdb.org/t/p/w500/fCKdh2Y5uYHlshpdkdIE7WxgZ5R.jpg",
-        "rating_tmdb": 7.855,
+        "rating_tmdb": 7.856,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
         "rating_tomato": "86%",
@@ -794,7 +794,7 @@
     {
         "title": "情书",
         "poster": "https://image.tmdb.org/t/p/w500/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
-        "rating_tmdb": 9.1,
+        "rating_tmdb": 9.091,
         "rating_douban": 9.4,
         "rating_imdb": 9.1,
         "rating_tomato": "100%",
@@ -818,7 +818,7 @@
     {
         "title": "窃听风暴",
         "poster": "https://image.tmdb.org/t/p/w500/v08rYoUwgAIT5zwhT4V3Tada78o.jpg",
-        "rating_tmdb": 8.0,
+        "rating_tmdb": 8.039,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -830,7 +830,7 @@
     {
         "title": "功夫",
         "poster": "https://image.tmdb.org/t/p/w500/wv91QM70K9KzF9usPOebYX3LKkp.jpg",
-        "rating_tmdb": 7.496,
+        "rating_tmdb": 7.499,
         "rating_douban": 7.8,
         "rating_imdb": 7.5,
         "rating_tomato": "82%",
@@ -866,7 +866,7 @@
     {
         "title": "阿凡达",
         "poster": "https://image.tmdb.org/t/p/w500/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
-        "rating_tmdb": 7.527,
+        "rating_tmdb": 7.531,
         "rating_douban": 7.8,
         "rating_imdb": 7.5,
         "rating_tomato": "82%",
@@ -902,7 +902,7 @@
     {
         "title": "拯救大兵瑞恩",
         "poster": "https://image.tmdb.org/t/p/w500/8pqkvhFaWCaQTWVDcWde127VixT.jpg",
-        "rating_tmdb": 8.224,
+        "rating_tmdb": 8.225,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -960,18 +960,6 @@
         "ai_insight": "🔥 选题灵感：建议从《布达佩斯大饭店》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
-        "title": "还有明天",
-        "poster": "https://image.tmdb.org/t/p/w500/x8JiIrpQlUiqnTZLHkKfm45pXPU.jpg",
-        "rating_tmdb": 8.078,
-        "rating_douban": 8.4,
-        "rating_imdb": 8.1,
-        "rating_tomato": "88%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《还有明天》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
         "title": "飞越疯人院",
         "poster": "https://image.tmdb.org/t/p/w500/cTlE3BxHbJL05UrisIUkS9usdOW.jpg",
         "rating_tmdb": 8.413,
@@ -982,6 +970,18 @@
             "剧情"
         ],
         "ai_insight": "🔥 选题灵感：建议从《飞越疯人院》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
+        "title": "还有明天",
+        "poster": "https://image.tmdb.org/t/p/w500/x8JiIrpQlUiqnTZLHkKfm45pXPU.jpg",
+        "rating_tmdb": 8.078,
+        "rating_douban": 8.4,
+        "rating_imdb": 8.1,
+        "rating_tomato": "88%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《还有明天》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
         "title": "禁闭岛",
@@ -1058,7 +1058,7 @@
     {
         "title": "一一",
         "poster": "https://image.tmdb.org/t/p/w500/sjlVRbsB33Mzt26vKRxoGPV0YZC.jpg",
-        "rating_tmdb": 8.388,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -1081,7 +1081,7 @@
     },
     {
         "title": "杀人回忆",
-        "poster": "https://image.tmdb.org/t/p/w500/fOtl0hH2g3wJ5Hf4saKMzhpOf7h.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/hJMdZcNqm4l7Rv72Ak12QytdGi9.jpg",
         "rating_tmdb": 8.058,
         "rating_douban": 8.4,
         "rating_imdb": 8.1,
@@ -1130,7 +1130,7 @@
     {
         "title": "加勒比海盗",
         "poster": "https://image.tmdb.org/t/p/w500/72vRdR3iT2vv1ZpYmveOvnFJgJk.jpg",
-        "rating_tmdb": 7.379,
+        "rating_tmdb": 7.38,
         "rating_douban": 7.7,
         "rating_imdb": 7.4,
         "rating_tomato": "81%",
