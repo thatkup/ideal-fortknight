@@ -50,7 +50,7 @@
     {
         "title": "千与千寻",
         "poster": "https://image.tmdb.org/t/p/w500/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
-        "rating_tmdb": 8.534,
+        "rating_tmdb": 8.535,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -58,18 +58,6 @@
             "剧情"
         ],
         "ai_insight": "🔥 选题灵感：建议从《千与千寻》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
-        "title": "美丽人生",
-        "poster": "https://image.tmdb.org/t/p/w500/q5uZjTEq1CCDNJDkxzJkFtWGTAU.jpg",
-        "rating_tmdb": 8.439,
-        "rating_douban": 8.7,
-        "rating_imdb": 8.4,
-        "rating_tomato": "92%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《美丽人生》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
         "title": "星际穿越",
@@ -84,9 +72,21 @@
         "ai_insight": "🔥 选题灵感：建议从《星际穿越》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
+        "title": "美丽人生",
+        "poster": "https://image.tmdb.org/t/p/w500/q5uZjTEq1CCDNJDkxzJkFtWGTAU.jpg",
+        "rating_tmdb": 8.439,
+        "rating_douban": 8.7,
+        "rating_imdb": 8.4,
+        "rating_tomato": "92%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《美丽人生》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
         "title": "这个杀手不太冷",
         "poster": "https://image.tmdb.org/t/p/w500/wT9bYGpoFnJGiRaRF9DErVjZ7qo.jpg",
-        "rating_tmdb": 8.3,
+        "rating_tmdb": 8.294,
         "rating_douban": 8.6,
         "rating_imdb": 8.3,
         "rating_tomato": "91%",
@@ -122,7 +122,7 @@
     {
         "title": "辛德勒的名单",
         "poster": "https://image.tmdb.org/t/p/w500/7cDI6MrIi12uQxfipiNIeJPYljy.jpg",
-        "rating_tmdb": 8.6,
+        "rating_tmdb": 8.569,
         "rating_douban": 8.9,
         "rating_imdb": 8.6,
         "rating_tomato": "94%",
@@ -218,7 +218,7 @@
     {
         "title": "控方证人",
         "poster": "https://image.tmdb.org/t/p/w500/eKAZqdT78RIiTPlWDc53jQEPU3v.jpg",
-        "rating_tmdb": 8.205,
+        "rating_tmdb": 8.206,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -240,21 +240,9 @@
         "ai_insight": "🔥 选题灵感：建议从《寻梦环游记》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
-        "title": "大话西游之大圣娶亲",
-        "poster": "https://image.tmdb.org/t/p/w500/32UL99Ec3HqbLZhaRPdEWM38IGy.jpg",
-        "rating_tmdb": 7.723,
-        "rating_douban": 8.0,
-        "rating_imdb": 7.7,
-        "rating_tomato": "84%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《大话西游之大圣娶亲》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
         "title": "熔炉",
         "poster": "https://image.tmdb.org/t/p/w500/kRx2QJ1Q5k863AbYgPkj23BbxK8.jpg",
-        "rating_tmdb": 8.161,
+        "rating_tmdb": 8.162,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "89%",
@@ -326,10 +314,10 @@
     {
         "title": "龙猫",
         "poster": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
-        "rating_tmdb": 8.1,
+        "rating_tmdb": 8.063,
         "rating_douban": 8.4,
         "rating_imdb": 8.1,
-        "rating_tomato": "89%",
+        "rating_tomato": "88%",
         "genres": [
             "剧情"
         ],
@@ -434,7 +422,7 @@
     {
         "title": "哈尔的移动城堡",
         "poster": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
-        "rating_tmdb": 8.387,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -446,7 +434,7 @@
     {
         "title": "十二怒汉",
         "poster": "https://image.tmdb.org/t/p/w500/ztYF7nf1SBJYMWPMzjWv52U6T41.jpg",
-        "rating_tmdb": 8.6,
+        "rating_tmdb": 8.563,
         "rating_douban": 8.9,
         "rating_imdb": 8.6,
         "rating_tomato": "94%",
@@ -494,10 +482,10 @@
     {
         "title": "天空之城",
         "poster": "https://image.tmdb.org/t/p/w500/nCpXBPravHiEzjv6cCGp2lt2E28.jpg",
-        "rating_tmdb": 8.0,
+        "rating_tmdb": 7.969,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
-        "rating_tomato": "88%",
+        "rating_tomato": "87%",
         "genres": [
             "剧情"
         ],
@@ -578,7 +566,7 @@
     {
         "title": "大话西游之月光宝盒",
         "poster": "https://image.tmdb.org/t/p/w500/2dka8szEqgKWbqwhYbaT0ssAtrK.jpg",
-        "rating_tmdb": 7.537,
+        "rating_tmdb": 7.5,
         "rating_douban": 7.8,
         "rating_imdb": 7.5,
         "rating_tomato": "82%",
@@ -602,7 +590,7 @@
     {
         "title": "何以为家",
         "poster": "https://image.tmdb.org/t/p/w500/4vUTHM1dlRpWBvTB0IrB9hbrhSx.jpg",
-        "rating_tmdb": 8.147,
+        "rating_tmdb": 8.148,
         "rating_douban": 8.4,
         "rating_imdb": 8.1,
         "rating_tomato": "89%",
@@ -686,7 +674,7 @@
     {
         "title": "狮子王",
         "poster": "https://image.tmdb.org/t/p/w500/eFtJyNhv339OHknjFNq76bkxPlw.jpg",
-        "rating_tmdb": 8.254,
+        "rating_tmdb": 8.253,
         "rating_douban": 8.6,
         "rating_imdb": 8.3,
         "rating_tomato": "90%",
@@ -818,7 +806,7 @@
     {
         "title": "窃听风暴",
         "poster": "https://image.tmdb.org/t/p/w500/v08rYoUwgAIT5zwhT4V3Tada78o.jpg",
-        "rating_tmdb": 8.0,
+        "rating_tmdb": 8.039,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -866,7 +854,7 @@
     {
         "title": "阿凡达",
         "poster": "https://image.tmdb.org/t/p/w500/d5jW601WKpT1yTwWsJcYvUwl8cB.jpg",
-        "rating_tmdb": 7.598,
+        "rating_tmdb": 7.6,
         "rating_douban": 7.9,
         "rating_imdb": 7.6,
         "rating_tomato": "83%",
@@ -902,7 +890,7 @@
     {
         "title": "拯救大兵瑞恩",
         "poster": "https://image.tmdb.org/t/p/w500/8pqkvhFaWCaQTWVDcWde127VixT.jpg",
-        "rating_tmdb": 8.227,
+        "rating_tmdb": 8.228,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -1044,18 +1032,6 @@
         "ai_insight": "🔥 选题灵感：建议从《哈利·波特与密室》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
-        "title": "超脱",
-        "poster": "https://image.tmdb.org/t/p/w500/111jlbz8CyqADlHZTPg9giZl02I.jpg",
-        "rating_tmdb": 7.629,
-        "rating_douban": 7.9,
-        "rating_imdb": 7.6,
-        "rating_tomato": "83%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《超脱》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
         "title": "一一",
         "poster": "https://image.tmdb.org/t/p/w500/umillz4L0XfUQ7DTBUycV19a7wT.jpg",
         "rating_tmdb": 7.9,
@@ -1066,6 +1042,18 @@
             "剧情"
         ],
         "ai_insight": "🔥 选题灵感：建议从《一一》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
+        "title": "超脱",
+        "poster": "https://image.tmdb.org/t/p/w500/111jlbz8CyqADlHZTPg9giZl02I.jpg",
+        "rating_tmdb": 7.629,
+        "rating_douban": 7.9,
+        "rating_imdb": 7.6,
+        "rating_tomato": "83%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《超脱》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
         "title": "喜剧之王",
@@ -1082,10 +1070,10 @@
     {
         "title": "杀人回忆",
         "poster": "https://image.tmdb.org/t/p/w500/hJMdZcNqm4l7Rv72Ak12QytdGi9.jpg",
-        "rating_tmdb": 8.1,
+        "rating_tmdb": 8.058,
         "rating_douban": 8.4,
         "rating_imdb": 8.1,
-        "rating_tomato": "89%",
+        "rating_tomato": "88%",
         "genres": [
             "剧情"
         ],
