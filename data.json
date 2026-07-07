@@ -74,7 +74,7 @@
     {
         "title": "美丽人生",
         "poster": "https://image.tmdb.org/t/p/w500/q5uZjTEq1CCDNJDkxzJkFtWGTAU.jpg",
-        "rating_tmdb": 8.439,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -134,7 +134,7 @@
     {
         "title": "忠犬八公的故事",
         "poster": "https://image.tmdb.org/t/p/w500/bJY4HwYR7rrWBqY4t1XofjhGnVh.jpg",
-        "rating_tmdb": 8.007,
+        "rating_tmdb": 8.0,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -170,7 +170,7 @@
     {
         "title": "三傻大闹宝莱坞",
         "poster": "https://image.tmdb.org/t/p/w500/3Kdkci7FE36fWcsuoeGFYApBBE1.jpg",
-        "rating_tmdb": 8.002,
+        "rating_tmdb": 8.0,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -290,7 +290,7 @@
     {
         "title": "哈利·波特与魔法石",
         "poster": "https://image.tmdb.org/t/p/w500/4oglmTTSAZb9FSO3IFuMK8F7qQ3.jpg",
-        "rating_tmdb": 7.899,
+        "rating_tmdb": 7.9,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
         "rating_tomato": "86%",
@@ -302,7 +302,7 @@
     {
         "title": "当幸福来敲门",
         "poster": "https://image.tmdb.org/t/p/w500/vxj2k0168d7K3pih7Aw6kqvvLcN.jpg",
-        "rating_tmdb": 7.887,
+        "rating_tmdb": 7.888,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
         "rating_tomato": "86%",
@@ -338,7 +338,7 @@
     {
         "title": "怦然心动",
         "poster": "https://image.tmdb.org/t/p/w500/4Nu5blbEXzNm58UKVVZ9qhe3O3y.jpg",
-        "rating_tmdb": 8.013,
+        "rating_tmdb": 8.012,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -386,7 +386,7 @@
     {
         "title": "乱世佳人",
         "poster": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
-        "rating_tmdb": 7.911,
+        "rating_tmdb": 7.91,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
         "rating_tomato": "87%",
@@ -434,7 +434,7 @@
     {
         "title": "十二怒汉",
         "poster": "https://image.tmdb.org/t/p/w500/ztYF7nf1SBJYMWPMzjWv52U6T41.jpg",
-        "rating_tmdb": 8.564,
+        "rating_tmdb": 8.6,
         "rating_douban": 8.9,
         "rating_imdb": 8.6,
         "rating_tomato": "94%",
@@ -494,7 +494,7 @@
     {
         "title": "鬼子来了",
         "poster": "https://image.tmdb.org/t/p/w500/nL46rg8dFR4plAisxuriYmdU2NP.jpg",
-        "rating_tmdb": 8.23,
+        "rating_tmdb": 8.2,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -554,7 +554,7 @@
     {
         "title": "指环王2：双塔奇兵",
         "poster": "https://image.tmdb.org/t/p/w500/ychqojA94mwdskXIIVmDyrfxwXl.jpg",
-        "rating_tmdb": 8.422,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -578,7 +578,7 @@
     {
         "title": "绿皮书",
         "poster": "https://image.tmdb.org/t/p/w500/i5kSuadrODYA2INXDksBk6oAY66.jpg",
-        "rating_tmdb": 8.226,
+        "rating_tmdb": 8.227,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -590,10 +590,10 @@
     {
         "title": "何以为家",
         "poster": "https://image.tmdb.org/t/p/w500/4vUTHM1dlRpWBvTB0IrB9hbrhSx.jpg",
-        "rating_tmdb": 8.15,
+        "rating_tmdb": 8.2,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
-        "rating_tomato": "89%",
+        "rating_tomato": "90%",
         "genres": [
             "剧情"
         ],
@@ -602,7 +602,7 @@
     {
         "title": "闻香识女人",
         "poster": "https://image.tmdb.org/t/p/w500/wslKTtycuNZt66we6quBK2pFbUi.jpg",
-        "rating_tmdb": 7.8,
+        "rating_tmdb": 7.791,
         "rating_douban": 8.1,
         "rating_imdb": 7.8,
         "rating_tomato": "85%",
@@ -686,7 +686,7 @@
     {
         "title": "天堂电影院",
         "poster": "https://image.tmdb.org/t/p/w500/myeMOuOLu9Z7MwRF9HU7p5L4cYB.jpg",
-        "rating_tmdb": 8.429,
+        "rating_tmdb": 8.428,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -722,7 +722,7 @@
     {
         "title": "本杰明·巴顿奇事",
         "poster": "https://image.tmdb.org/t/p/w500/ir4quKlGux2qsghW7ltGRDn3mrJ.jpg",
-        "rating_tmdb": 7.599,
+        "rating_tmdb": 7.6,
         "rating_douban": 7.9,
         "rating_imdb": 7.6,
         "rating_tomato": "83%",
@@ -734,7 +734,7 @@
     {
         "title": "搏击俱乐部",
         "poster": "https://image.tmdb.org/t/p/w500/qkrH7rjYKU4KOwwIl6wF6H3ISvm.jpg",
-        "rating_tmdb": 8.438,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -758,7 +758,7 @@
     {
         "title": "穿条纹睡衣的男孩",
         "poster": "https://image.tmdb.org/t/p/w500/33iFmb2fs1o9jZT1YMXchJZYjb3.jpg",
-        "rating_tmdb": 7.821,
+        "rating_tmdb": 7.822,
         "rating_douban": 8.1,
         "rating_imdb": 7.8,
         "rating_tomato": "86%",
@@ -806,7 +806,7 @@
     {
         "title": "功夫",
         "poster": "https://image.tmdb.org/t/p/w500/wv91QM70K9KzF9usPOebYX3LKkp.jpg",
-        "rating_tmdb": 7.5,
+        "rating_tmdb": 7.501,
         "rating_douban": 7.8,
         "rating_imdb": 7.5,
         "rating_tomato": "82%",
@@ -818,7 +818,7 @@
     {
         "title": "窃听风暴",
         "poster": "https://image.tmdb.org/t/p/w500/v08rYoUwgAIT5zwhT4V3Tada78o.jpg",
-        "rating_tmdb": 8.038,
+        "rating_tmdb": 8.039,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -926,7 +926,7 @@
     {
         "title": "蝴蝶效应",
         "poster": "https://image.tmdb.org/t/p/w500/ubI1LllWsA92f4M9GKX2wUlzkPR.jpg",
-        "rating_tmdb": 7.58,
+        "rating_tmdb": 7.579,
         "rating_douban": 7.9,
         "rating_imdb": 7.6,
         "rating_tomato": "83%",
@@ -974,7 +974,7 @@
     {
         "title": "禁闭岛",
         "poster": "https://image.tmdb.org/t/p/w500/zq4XIU55RkoPDrr1LdgXwCXSNzp.jpg",
-        "rating_tmdb": 8.198,
+        "rating_tmdb": 8.2,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -986,10 +986,10 @@
     {
         "title": "心灵捕手",
         "poster": "https://image.tmdb.org/t/p/w500/6GtC5kaLrtk2YhAfvPqQrgbRQKR.jpg",
-        "rating_tmdb": 8.162,
+        "rating_tmdb": 8.2,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
-        "rating_tomato": "89%",
+        "rating_tomato": "90%",
         "genres": [
             "剧情"
         ],
@@ -998,7 +998,7 @@
     {
         "title": "致命魔术",
         "poster": "https://image.tmdb.org/t/p/w500/5DMDkeRfgISRqwxgrX9McAYwu6A.jpg",
-        "rating_tmdb": 8.209,
+        "rating_tmdb": 8.2,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -1010,7 +1010,7 @@
     {
         "title": "低俗小说",
         "poster": "https://image.tmdb.org/t/p/w500/WZW5PCtCbtyKfojdLlPCi89DNx.jpg",
-        "rating_tmdb": 8.482,
+        "rating_tmdb": 8.5,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -1046,7 +1046,7 @@
     {
         "title": "超脱",
         "poster": "https://image.tmdb.org/t/p/w500/111jlbz8CyqADlHZTPg9giZl02I.jpg",
-        "rating_tmdb": 7.631,
+        "rating_tmdb": 7.63,
         "rating_douban": 7.9,
         "rating_imdb": 7.6,
         "rating_tomato": "83%",
@@ -1068,18 +1068,6 @@
         "ai_insight": "🔥 选题灵感：建议从《喜剧之王》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
-        "title": "杀人回忆",
-        "poster": "https://image.tmdb.org/t/p/w500/hJMdZcNqm4l7Rv72Ak12QytdGi9.jpg",
-        "rating_tmdb": 8.061,
-        "rating_douban": 8.4,
-        "rating_imdb": 8.1,
-        "rating_tomato": "88%",
-        "genres": [
-            "剧情"
-        ],
-        "ai_insight": "🔥 选题灵感：建议从《杀人回忆》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
-    },
-    {
         "title": "致命ID",
         "poster": "https://image.tmdb.org/t/p/w500/p59g3NUxuOK4ghPqblA5e3k26sv.jpg",
         "rating_tmdb": 7.187,
@@ -1092,9 +1080,21 @@
         "ai_insight": "🔥 选题灵感：建议从《致命ID》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
     },
     {
+        "title": "杀人回忆",
+        "poster": "https://image.tmdb.org/t/p/w500/hJMdZcNqm4l7Rv72Ak12QytdGi9.jpg",
+        "rating_tmdb": 8.061,
+        "rating_douban": 8.4,
+        "rating_imdb": 8.1,
+        "rating_tomato": "88%",
+        "genres": [
+            "剧情"
+        ],
+        "ai_insight": "🔥 选题灵感：建议从《杀人回忆》中隐藏的人性反转切入，拆解导演埋下的惊天伏笔，极易制造百万播放！"
+    },
+    {
         "title": "摩登时代",
         "poster": "https://image.tmdb.org/t/p/w500/3OR9kt3TIjGoiMtv7OGwM6LGavC.jpg",
-        "rating_tmdb": 8.3,
+        "rating_tmdb": 8.278,
         "rating_douban": 8.6,
         "rating_imdb": 8.3,
         "rating_tomato": "91%",
@@ -1118,7 +1118,7 @@
     {
         "title": "加勒比海盗",
         "poster": "https://image.tmdb.org/t/p/w500/72vRdR3iT2vv1ZpYmveOvnFJgJk.jpg",
-        "rating_tmdb": 7.384,
+        "rating_tmdb": 7.4,
         "rating_douban": 7.7,
         "rating_imdb": 7.4,
         "rating_tomato": "81%",
@@ -1166,7 +1166,7 @@
     {
         "title": "七宗罪",
         "poster": "https://image.tmdb.org/t/p/w500/e7J95YHcmLtyUtB1yojY76xQO90.jpg",
-        "rating_tmdb": 8.382,
+        "rating_tmdb": 8.381,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
