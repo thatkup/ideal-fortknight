@@ -2,7 +2,7 @@
     {
         "title": "肖申克的救赎",
         "poster": "https://image.tmdb.org/t/p/w500/Aqo8yM5S5ZEdlcyeBBxj7s0vkTf.jpg",
-        "rating_tmdb": 8.7,
+        "rating_tmdb": 8.726,
         "rating_douban": 9.0,
         "rating_imdb": 8.7,
         "rating_tomato": "95%",
@@ -146,7 +146,7 @@
     {
         "title": "海上钢琴师",
         "poster": "https://image.tmdb.org/t/p/w500/le7jQ6Sc3xEUvosHXJojDMR6EnE.jpg",
-        "rating_tmdb": 8.244,
+        "rating_tmdb": 8.243,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -170,7 +170,7 @@
     {
         "title": "三傻大闹宝莱坞",
         "poster": "https://image.tmdb.org/t/p/w500/3Kdkci7FE36fWcsuoeGFYApBBE1.jpg",
-        "rating_tmdb": 8.006,
+        "rating_tmdb": 8.0,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -314,7 +314,7 @@
     {
         "title": "龙猫",
         "poster": "https://image.tmdb.org/t/p/w500/okAv5Q1ad2WMt7hxsXUyolfE6zA.jpg",
-        "rating_tmdb": 8.064,
+        "rating_tmdb": 8.065,
         "rating_douban": 8.4,
         "rating_imdb": 8.1,
         "rating_tomato": "88%",
@@ -386,10 +386,10 @@
     {
         "title": "乱世佳人",
         "poster": "https://image.tmdb.org/t/p/w500/3F2AYTFHjcygEdlRWEFaTGK8W9M.jpg",
-        "rating_tmdb": 7.91,
+        "rating_tmdb": 7.9,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
-        "rating_tomato": "87%",
+        "rating_tomato": "86%",
         "genres": [
             "剧情"
         ],
@@ -422,7 +422,7 @@
     {
         "title": "哈尔的移动城堡",
         "poster": "https://image.tmdb.org/t/p/w500/mOkZtsb8UObRAa77EDTmbPB5BuY.jpg",
-        "rating_tmdb": 8.388,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -458,7 +458,7 @@
     {
         "title": "素媛",
         "poster": "https://image.tmdb.org/t/p/w500/bnpEj2PGKzaeQfkhi9JRC4wkyRZ.jpg",
-        "rating_tmdb": 8.388,
+        "rating_tmdb": 8.391,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -590,9 +590,9 @@
     {
         "title": "何以为家",
         "poster": "https://image.tmdb.org/t/p/w500/4vUTHM1dlRpWBvTB0IrB9hbrhSx.jpg",
-        "rating_tmdb": 8.149,
-        "rating_douban": 8.4,
-        "rating_imdb": 8.1,
+        "rating_tmdb": 8.15,
+        "rating_douban": 8.5,
+        "rating_imdb": 8.2,
         "rating_tomato": "89%",
         "genres": [
             "剧情"
@@ -686,7 +686,7 @@
     {
         "title": "天堂电影院",
         "poster": "https://image.tmdb.org/t/p/w500/myeMOuOLu9Z7MwRF9HU7p5L4cYB.jpg",
-        "rating_tmdb": 8.43,
+        "rating_tmdb": 8.429,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -758,7 +758,7 @@
     {
         "title": "穿条纹睡衣的男孩",
         "poster": "https://image.tmdb.org/t/p/w500/33iFmb2fs1o9jZT1YMXchJZYjb3.jpg",
-        "rating_tmdb": 7.822,
+        "rating_tmdb": 7.821,
         "rating_douban": 8.1,
         "rating_imdb": 7.8,
         "rating_tomato": "86%",
@@ -806,10 +806,10 @@
     {
         "title": "功夫",
         "poster": "https://image.tmdb.org/t/p/w500/7H9Gkdr9V5KMM6STtCRdTuRD2Zd.jpg",
-        "rating_tmdb": 4.571,
-        "rating_douban": 4.9,
-        "rating_imdb": 4.6,
-        "rating_tomato": "50%",
+        "rating_tmdb": 5.444,
+        "rating_douban": 5.7,
+        "rating_imdb": 5.4,
+        "rating_tomato": "59%",
         "genres": [
             "剧情"
         ],
@@ -1010,7 +1010,7 @@
     {
         "title": "低俗小说",
         "poster": "https://image.tmdb.org/t/p/w500/WZW5PCtCbtyKfojdLlPCi89DNx.jpg",
-        "rating_tmdb": 8.481,
+        "rating_tmdb": 8.482,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -1070,7 +1070,7 @@
     {
         "title": "致命ID",
         "poster": "https://image.tmdb.org/t/p/w500/p59g3NUxuOK4ghPqblA5e3k26sv.jpg",
-        "rating_tmdb": 7.186,
+        "rating_tmdb": 7.185,
         "rating_douban": 7.5,
         "rating_imdb": 7.2,
         "rating_tomato": "79%",
@@ -1106,7 +1106,7 @@
     {
         "title": "春光乍泄",
         "poster": "https://image.tmdb.org/t/p/w500/dAyUTgO1BGuEZhF3f2G8V9d8sXM.jpg",
-        "rating_tmdb": 7.6,
+        "rating_tmdb": 7.588,
         "rating_douban": 7.9,
         "rating_imdb": 7.6,
         "rating_tomato": "83%",
@@ -1166,7 +1166,7 @@
     {
         "title": "七宗罪",
         "poster": "https://image.tmdb.org/t/p/w500/e7J95YHcmLtyUtB1yojY76xQO90.jpg",
-        "rating_tmdb": 8.381,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
