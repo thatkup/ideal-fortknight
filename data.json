@@ -26,7 +26,7 @@
     {
         "title": "阿甘正传",
         "poster": "https://image.tmdb.org/t/p/w500/pplybKImR7LKzSVzRylK6Cl4dzm.jpg",
-        "rating_tmdb": 8.464,
+        "rating_tmdb": 8.465,
         "rating_douban": 8.8,
         "rating_imdb": 8.5,
         "rating_tomato": "93%",
@@ -38,7 +38,7 @@
     {
         "title": "泰坦尼克号",
         "poster": "https://image.tmdb.org/t/p/w500/lFYUkUPcFXDzZzSfkiCDsvHIJxj.jpg",
-        "rating_tmdb": 7.902,
+        "rating_tmdb": 7.903,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
         "rating_tomato": "86%",
@@ -146,7 +146,7 @@
     {
         "title": "三傻大闹宝莱坞",
         "poster": "https://image.tmdb.org/t/p/w500/3Kdkci7FE36fWcsuoeGFYApBBE1.jpg",
-        "rating_tmdb": 8.006,
+        "rating_tmdb": 8.005,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
