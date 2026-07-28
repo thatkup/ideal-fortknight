@@ -14,10 +14,10 @@
     {
         "title": "霸王别姬",
         "poster": "https://image.tmdb.org/t/p/w500/vOEkLofQ8N1OdbGs5L87m7Plpw2.jpg",
-        "rating_tmdb": 7.915,
+        "rating_tmdb": 7.9,
         "rating_douban": 8.2,
         "rating_imdb": 7.9,
-        "rating_tomato": "87%",
+        "rating_tomato": "86%",
         "genres": [
             "剧情"
         ],
@@ -62,7 +62,7 @@
     {
         "title": "美丽人生",
         "poster": "https://image.tmdb.org/t/p/w500/q5uZjTEq1CCDNJDkxzJkFtWGTAU.jpg",
-        "rating_tmdb": 8.439,
+        "rating_tmdb": 8.4,
         "rating_douban": 8.7,
         "rating_imdb": 8.4,
         "rating_tomato": "92%",
@@ -134,7 +134,7 @@
     {
         "title": "海上钢琴师",
         "poster": "https://image.tmdb.org/t/p/w500/le7jQ6Sc3xEUvosHXJojDMR6EnE.jpg",
-        "rating_tmdb": 8.244,
+        "rating_tmdb": 8.245,
         "rating_douban": 8.5,
         "rating_imdb": 8.2,
         "rating_tomato": "90%",
@@ -146,7 +146,7 @@
     {
         "title": "三傻大闹宝莱坞",
         "poster": "https://image.tmdb.org/t/p/w500/3Kdkci7FE36fWcsuoeGFYApBBE1.jpg",
-        "rating_tmdb": 8.005,
+        "rating_tmdb": 8.006,
         "rating_douban": 8.3,
         "rating_imdb": 8.0,
         "rating_tomato": "88%",
@@ -170,7 +170,7 @@
     {
         "title": "机器人总动员",
         "poster": "https://image.tmdb.org/t/p/w500/hg2Z4rD1CkplEZENYEMDBsMWcxK.jpg",
-        "rating_tmdb": 8.117,
+        "rating_tmdb": 8.118,
         "rating_douban": 8.4,
         "rating_imdb": 8.1,
         "rating_tomato": "89%",
